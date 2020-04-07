@@ -11,6 +11,9 @@ hamburger.addEventListener("click", function(){
 	list.style.display = "flex";
 	x.style.display= "block";
 	body.style.overflow = "hidden";
+	hamburger.style.transition = "opacity 300ms ease-out";
+	hamburger.style.opacity = "0";
+	hamburger.style.pointerEvents = "none";
 });
 
 x.addEventListener("click", function(){
@@ -19,4 +22,7 @@ x.addEventListener("click", function(){
 	list.style.display = "none";
 	x.style.display= "none";
 	body.style.overflow = "unset";
+	hamburger.style.transition = "opacity 300ms ease-out";
+	hamburger.style.opacity = "1";
+	hamburger.style.pointerEvents = "auto";
 });
