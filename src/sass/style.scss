@@ -35,9 +35,12 @@ header{
     }
         li{
             display: inline-block;
+            a{
+            transition: all 0.3s;
+            }
         }
-        li:hover{
-            color: green !important;
+        li:hover a{
+            color: #0098FE !important;
         }
     }
 
@@ -67,10 +70,16 @@ header{
         padding: 18px 54px;
         letter-spacing: 1.6px;
         font-size: 16px;
+        font-weight: bolder;
         border-radius: 29px;
        background: #004777;
      margin-left: 187px;
      color: white;
+     transition: all 0.5s;
+     &:hover{
+         background: white;
+         color: #004777;
+     }
     }
 }
 main{
@@ -184,6 +193,10 @@ z-index: -2222;
     >div{
         width: 286px;
         position: relative;
+        overflow: hidden;
+        img:hover{
+            transform: scale(1.05);
+        }
     }
     h4{
         padding-left: 22px;
@@ -209,9 +222,9 @@ z-index: -2222;
     position: absolute;
     top: 0;
     right: -19.25%;
-    width: 75%;
+    width: 80%;
     height: 100%;
-    background: linear-gradient(89deg, #00315100 0%, #7F8D952E 100%);
+    background: linear-gradient(89deg, #00315100 , #7F8D952E );
     z-index: -333333;
 }
 }
@@ -322,12 +335,34 @@ margin-bottom: 0;
          letter-spacing: 3.47px;
          width: 349px;
      }
-     input{
+     >div{
+         width: 346px;
+         margin: auto;
+         position: relative;
          margin-top: 69px;
+         span{
+             width: 37px;
+             height: 37px;
+             border-radius: 50%;
+            background: #004777;
+            position: absolute;
+            right: 3px;
+            top: 3.5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 28%;
+                        }
+
+         }
+     }
+     input{
          border-radius: 26px;
          border: none;
          width: 346px;
          height: 44px;
+         outline: none;
      }
      p{
          margin-top: 100px;
@@ -341,7 +376,7 @@ margin-bottom: 0;
          color: #91B5CC;
          padding-bottom: 45px;
      }
-     img{
+     >img{
          position: absolute;
          bottom: -76px;
          left:28px;
@@ -543,8 +578,12 @@ margin-bottom: 0;
 }
 .footer{
     margin-top: 120px;
-    input{
+    >div{
         width: 55%;
+        height: 44px;
+        input{
+            width: 100%;
+        }
     }
     p{
         margin-top: 50px;
@@ -690,7 +729,7 @@ margin-bottom: 0;
             letter-spacing: 2.47px;
             width: 80%;
         }
-        input{
+        >div{
             margin-top:45px;
         }
     }

@@ -42,8 +42,13 @@ header ul li {
   display: inline-block;
 }
 
-header ul li:hover {
-  color: green !important;
+header ul li a {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header ul li:hover a {
+  color: #0098FE !important;
 }
 
 header h1 {
@@ -72,10 +77,18 @@ header > a {
   padding: 18px 54px;
   letter-spacing: 1.6px;
   font-size: 16px;
+  font-weight: bolder;
   border-radius: 29px;
   background: #004777;
   margin-left: 187px;
   color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header > a:hover {
+  background: white;
+  color: #004777;
 }
 
 main {
@@ -210,6 +223,12 @@ main {
 .facts > div {
   width: 286px;
   position: relative;
+  overflow: hidden;
+}
+
+.facts > div img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .facts h4 {
@@ -239,9 +258,9 @@ main {
   position: absolute;
   top: 0;
   right: -19.25%;
-  width: 75%;
+  width: 80%;
   height: 100%;
-  background: linear-gradient(89deg, #00315100 0%, #7F8D952E 100%);
+  background: linear-gradient(89deg, #00315100, #7F8D952E);
   z-index: -333333;
 }
 
@@ -385,12 +404,42 @@ main {
   width: 349px;
 }
 
-.footer input {
+.footer > div {
+  width: 346px;
+  margin: auto;
+  position: relative;
   margin-top: 69px;
+}
+
+.footer > div span {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background: #004777;
+  position: absolute;
+  right: 3px;
+  top: 3.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer > div span img {
+  width: 28%;
+}
+
+.footer input {
   border-radius: 26px;
   border: none;
   width: 346px;
   height: 44px;
+  outline: none;
 }
 
 .footer p {
@@ -407,7 +456,7 @@ main {
   padding-bottom: 45px;
 }
 
-.footer img {
+.footer > img {
   position: absolute;
   bottom: -76px;
   left: 28px;
@@ -609,8 +658,12 @@ main {
   .footer {
     margin-top: 120px;
   }
-  .footer input {
+  .footer > div {
     width: 55%;
+    height: 44px;
+  }
+  .footer > div input {
+    width: 100%;
   }
   .footer p {
     margin-top: 50px;
@@ -746,7 +799,7 @@ main {
     letter-spacing: 2.47px;
     width: 80%;
   }
-  .footer input {
+  .footer > div {
     margin-top: 45px;
   }
 }
