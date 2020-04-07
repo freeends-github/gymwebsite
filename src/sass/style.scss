@@ -1,0 +1,697 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    color: white;
+    background: #19191996;
+    height: 758px;
+    position: relative;
+    img{
+        position: absolute;
+        z-index: -1111;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    ul{
+        margin-left: 429px;
+        padding-top: 83px;
+        margin-top: 0;
+        margin-bottom: 0;
+        a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: lighter;
+        margin-right: 103px;
+        color: white;
+        
+        
+
+    }
+        li{
+            display: inline-block;
+        }
+        li:hover{
+            color: green !important;
+        }
+    }
+
+    h1{
+        letter-spacing: 5.8px;
+        line-height: 75px;
+        font-size: 58px;
+        width: 361px;
+        margin-left: 187px;
+        margin-top: 121px;
+        display: inline-block;
+
+    }
+    P{
+        display: inline-block;
+        width: 311px;
+        margin-left: 135px;
+        letter-spacing: 1.74px;
+       
+        font-size: 14px;
+        line-height: 25px;
+    }
+    >a{
+        width: 64px;
+        display: block;
+        text-decoration: none;
+        padding: 18px 54px;
+        letter-spacing: 1.6px;
+        font-size: 16px;
+        border-radius: 29px;
+       background: #004777;
+     margin-left: 187px;
+     color: white;
+    }
+}
+main{
+    margin-right: 14%;
+    margin-left: 14%;
+    border-right:#C7C7C7 0.3px solid;
+    border-left: #C7C7C7 0.3px solid;
+}
+.about-us{ 
+       .katrori{
+        position:absolute;
+        left: 0;
+        width: 14%;
+        height: 399px;
+      background: #F9F9F9;
+
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        .paragrafat{
+            margin-top: 81px;
+        }
+        p{
+            margin-left: 108px;
+            letter-spacing: 1.74px;
+            line-height: 25px;
+            font-size: 14px;
+            margin-bottom: 23px;
+            width: 311px;
+            color: rgba(0, 49, 81, 0.48);
+
+           
+        }
+        .bold-p{
+            color: rgba(0, 49, 81, 1);
+        }
+        
+    }
+    .image{
+        position: relative;
+        margin-bottom: 232px;
+        >div{
+            position: absolute;
+            top: -60px;
+            width: 437px;
+            height: 609px;
+            background-color: #F6F6F6;
+            right: -240px;
+            z-index: -1111;
+        }
+        .pikat{
+          position: absolute;
+         left: -25%;
+         bottom: -25%;
+         z-index: -5555;
+        }
+    }
+    h5{
+        text-align: center;
+        color: #004777;
+        font-size: 16px;
+        letter-spacing: 1.4px;
+        line-height: 66px;
+        margin-top: 0;
+        padding-top: 175px;
+        margin-bottom: 0;
+    }
+    h2{
+        text-align: center;
+        font-size: 28px;
+        color: #003151;
+        letter-spacing: 2.8px;
+        line-height: 38px;
+        width: 316px;
+        margin: auto;
+        margin-bottom: 127px;
+        
+    }
+}
+.facts{
+    .numbers{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 34px;
+        height: 34px;
+    background: #004777;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    z-index: 55555;
+    }
+    position: relative;
+    .katrori{
+position: absolute;
+top: 81px;
+width:140%;
+right: -20%;
+left:-20%;
+height: 532px;
+background: #F9F9F9;
+z-index: -2222;
+    }
+    
+    display: flex;
+    justify-content: space-between;
+    >div{
+        width: 286px;
+        position: relative;
+    }
+    h4{
+        padding-left: 22px;
+        border-left: rgba(0, 71, 119, 1) 7px solid;
+        color: rgba(0, 49, 81, 1);
+        font-size:14px;
+         letter-spacing: 1.4px;
+         margin-top: 43px;
+         margin-bottom: 13px;    
+    }
+    p{
+        padding-left: 22px;
+        color: rgba(0, 49, 81, 0.48);
+        font-size: 12px;
+        letter-spacing: 1.49px;
+        line-height: 22px;
+    }
+}
+.container{
+    position: relative;
+    padding-bottom: 220px;
+.gradient{
+    position: absolute;
+    top: 0;
+    right: -19.25%;
+    width: 75%;
+    height: 100%;
+    background: linear-gradient(89deg, #00315100 0%, #7F8D952E 100%);
+    z-index: -333333;
+}
+}
+.testimonial{
+    margin-top: 217px;
+    display: flex;
+    .pikat{
+        position: absolute;
+        width: 202px;
+        height: 152px;
+        bottom: -10%;
+        left: -20%;
+        z-index: -111;
+
+    }
+   > div{
+       position: relative;
+    }
+    .text{
+        width: 740px;
+        height: 557px;
+        margin-top: 61px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #003151;
+        margin-left: -70px;
+        z-index: -5555;
+        >div{
+            margin-right: 112px;
+            margin-bottom: 57px;
+        }
+    }
+    p{
+        width: 474px;
+        margin-left:166px;
+        margin-top: 190px;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 24px;
+       letter-spacing: 1.6px;
+        color: #FFFFFF;
+    }
+    h4{
+     text-align: right;
+     font: SemiBold Italic 16px/24px Nunito;
+letter-spacing: 1.6px;
+color: #FFFFFF;
+margin-bottom: 0em;
+     
+    }
+    h5{
+      text-align: right;
+      font: ExtraLight 16px/24px Nunito;
+letter-spacing: 1.6px;
+color: #FFFFFF;
+margin-top: 0;
+    }
+}
+.what-we-offer{
+    margin-right: 126px;
+    margin-left: 23px;
+    margin-top: 206px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 140px;
+    h1{
+       font-size: 28px;
+       font-weight: bold;
+letter-spacing: 2.8px;
+color: #003151;
+    }
+    h5{
+        margin-left: 31px;
+        font-size: 18px;
+letter-spacing: 1.8px;
+color: #003151;
+margin-bottom: 17px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 24px;
+letter-spacing: 1.4px;
+color: #0031517A;
+margin-left: 60px;
+margin-bottom: 0;
+    }
+    .foto{
+        display: flex;
+        align-items: center;
+    }
+}
+.footer{
+    background: #F2F2F2;
+    text-align: center;
+    h5{
+        padding-top: 75px;
+       font-size: 14px;
+       letter-spacing: 1.74px;
+       color: #0098FE;
+       margin-bottom: 0;
+     }
+     h1{
+         margin:auto;
+         font-size: 28px;
+         margin-top: 9px;
+         color: #004777;
+         letter-spacing: 3.47px;
+         width: 349px;
+     }
+     input{
+         margin-top: 69px;
+         border-radius: 26px;
+         border: none;
+         width: 346px;
+         height: 44px;
+     }
+     p{
+         margin-top: 100px;
+         color: #ABABAB;
+         font-size: 14px;
+         letter-spacing: 1.74px;
+     }
+     a{
+         font-size: 12px;
+         margin-top: 10px;
+         color: #91B5CC;
+         padding-bottom: 45px;
+     }
+     img{
+         position: absolute;
+         bottom: -76px;
+         left:28px;
+     }
+     position: relative;
+     height: 469px;
+     margin-top: 214px;
+
+    
+}
+@media screen and (max-width:1024px){
+    header{
+        height: 500px;
+        ul{
+            margin:0;
+            margin-left:200px;
+            a{
+                margin-right: 70px;
+            }
+        }
+        h1{
+            letter-spacing: 3.8px;
+            line-height: 50px;
+            font-size: 42px;
+            width: 50%;
+            margin-top: 50px;
+            margin-left: 120px;
+
+        }
+        p{
+            display: block;
+        width: 70%;
+        margin-left: 120px;
+        }
+        
+    }
+    .about-us{
+        .katrori{
+            width: 10%;
+        }
+        h5{
+            padding-top: 50px;
+        }
+        h2{
+            letter-spacing: 1.8px;
+        line-height: 28px;
+        width: 500px;
+        }
+        .flex{
+            justify-content: start;
+            .paragrafat{
+                margin-top: 0;
+            }
+            p{
+                margin-left: 20px;
+                margin-bottom: 5px;
+
+            }
+        }
+        .image{
+            width: 350px;
+            .qika{
+                width: 100%;
+            }
+            >div{
+                top: -10%;
+                bottom: -10%;
+                height: 120%;
+                
+            }
+            .pikat{
+               display: none;
+              }
+        }
+    }
+    .facts{
+        flex-direction: column;
+        >div{
+            display:flex;
+            width: 100%;
+            margin-bottom: 18px;
+            >div{
+                margin-left: 10px;
+            }
+            
+
+        }
+    }
+    main{
+        margin-right: 10%;
+        margin-left: 10%;}
+
+        .testimonial{
+            flex-direction: column;
+            align-items: center !important;
+          .pikat{
+              top:-10%;
+          }
+          .text{
+              margin-top: -160px;
+              margin-left: 0;
+              z-index: 5555555;
+              height: 350px;
+              width: 90%;
+              border-radius: 20px;
+              align-items: center;
+             p{
+                 margin-top: 50px;
+                 margin-left: 0;
+             }
+             >div{
+                 margin-bottom: 15px;
+                 align-items: flex-end;
+                 width: 474px;
+
+             }
+          }
+        }
+        .what-we-offer{
+            grid-template-columns: auto;
+            grid-gap: 40px;
+            h5{
+                margin-bottom: 0;
+                margin-top: 0;
+            }
+           
+        }    
+        .footer{
+            img{
+                width: 150px;
+               bottom: -55px;
+            }
+        }
+}
+@media screen and (max-width:800px)
+{
+    header{
+        height: 450px;
+        ul{
+            margin-left: 50px;
+            a{
+                margin-right: 50px;
+            }
+        }
+        h1{
+            margin-left: 50px;
+            width: 70%;
+            margin-bottom: 0;
+        }
+        p{
+            margin-left: 50px;
+            letter-spacing: 1.5px;
+            line-height: 20px;
+
+
+        }
+    }
+    .about-us{
+        h2{
+            letter-spacing: 1.5px;
+            width: 90%;
+        margin: auto;
+        margin-bottom: 70px;
+        }
+        .flex{
+            flex-direction: column;
+            align-items: center;
+        }
+        .paragrafat{
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        .image{
+            margin-bottom: 150px;
+        }
+        p{
+            width: 90% !important;
+        }
+    }
+    .facts{
+        justify-content:center;
+        img{
+            width: 30%;
+            height: 20%;
+            margin: auto;
+            
+        }
+    }
+    .testimonial{
+        p{
+            width: 90%;
+            margin: auto !important;
+        }
+    }
+
+.what-we-offer{
+    margin-right: 10px;
+    margin-top: 100px;
+}
+.footer{
+    margin-top: 120px;
+    input{
+        width: 55%;
+    }
+    p{
+        margin-top: 50px;
+    }
+}
+.container{
+    padding-bottom: 150px;
+}
+
+}
+@media screen and (max-width:576px){
+    header{
+        height: 330px;
+        ul{
+            text-align: center;
+            margin:auto;
+            padding-top: 25px;
+            a{
+                margin-right: 20px;
+
+            }
+        }
+        h1{
+            letter-spacing: 2.8px;
+            line-height: 30px;
+            font-size: 30px;
+            width: 100%;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        p{
+            letter-spacing: 1.4px;
+       
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 10px;
+        width: 100%;
+
+        }
+        >a{
+            width: 64px;
+            padding: 8px 24px;
+            letter-spacing: 1.6px;
+            font-size: 16px;
+            border-radius: 29px;
+           background: #004777;
+         margin-left: 10px;
+         color: white;
+        }
+
+    }
+    main{
+        margin-right: 5%;
+        margin-left: 5%;
+
+    }
+    .about-us{
+        .katrori{
+            width: 5%;
+        }
+        h5{
+            padding-top: 25px;
+        }
+        h2{
+        line-height: 25px;
+        margin-bottom: 30px;
+        }
+        p{
+            letter-spacing: 1.4px !important;
+        line-height: 20px !important;
+        }
+        .image{
+            width: 270px;
+        }
+        
+    }
+    .facts{
+        >div{
+        flex-direction: column;
+        }
+        img{
+            width: 286px;
+            height: 20%;
+            margin: auto;
+            
+        }
+        h4{
+            margin-top: 15px;
+        }
+        p{
+            margin-bottom: 25px;
+        }
+    }
+    .testimonial{
+        margin-top: 100px;
+        >div{
+            width: 90%;
+            margin:auto;
+            .djali{
+                width: 100%;
+            }
+        }
+        P{
+            line-height: 20px;
+       letter-spacing: 1.3px;
+
+        }
+        .text{
+            width: 100%;
+            >div{
+                width:100%;
+                text-align: end;
+            }
+        }
+    }
+    .what-we-offer{
+        margin-top: 50px;
+        grid-gap: 30px;
+        h1{
+            font-size: 25px;
+            font-weight: bold;
+     letter-spacing: 2.0px;
+    }
+    p{
+        line-height: 20px;
+        margin-left:0;
+        margin-top: 8px;
+    }
+    h5{
+        margin-left: 15px;
+    }
+    }
+    .footer{
+        margin-top: 70px;
+        h5{
+            padding-top:40px;
+
+        }
+        h1{
+            margin:auto;
+            font-size: 24px;
+            margin-top: 9px;
+            letter-spacing: 2.47px;
+            width: 80%;
+        }
+        input{
+            margin-top:45px;
+        }
+    }
+}

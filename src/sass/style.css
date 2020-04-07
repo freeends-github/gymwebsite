@@ -1,0 +1,753 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Nunito', sans-serif;
+}
+
+header {
+  color: white;
+  background: #19191996;
+  height: 758px;
+  position: relative;
+}
+
+header img {
+  position: absolute;
+  z-index: -1111;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header ul {
+  margin-left: 429px;
+  padding-top: 83px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header ul a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-right: 103px;
+  color: white;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li:hover {
+  color: green !important;
+}
+
+header h1 {
+  letter-spacing: 5.8px;
+  line-height: 75px;
+  font-size: 58px;
+  width: 361px;
+  margin-left: 187px;
+  margin-top: 121px;
+  display: inline-block;
+}
+
+header P {
+  display: inline-block;
+  width: 311px;
+  margin-left: 135px;
+  letter-spacing: 1.74px;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+header > a {
+  width: 64px;
+  display: block;
+  text-decoration: none;
+  padding: 18px 54px;
+  letter-spacing: 1.6px;
+  font-size: 16px;
+  border-radius: 29px;
+  background: #004777;
+  margin-left: 187px;
+  color: white;
+}
+
+main {
+  margin-right: 14%;
+  margin-left: 14%;
+  border-right: #C7C7C7 0.3px solid;
+  border-left: #C7C7C7 0.3px solid;
+}
+
+.about-us .katrori {
+  position: absolute;
+  left: 0;
+  width: 14%;
+  height: 399px;
+  background: #F9F9F9;
+}
+
+.about-us .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-us .flex .paragrafat {
+  margin-top: 81px;
+}
+
+.about-us .flex p {
+  margin-left: 108px;
+  letter-spacing: 1.74px;
+  line-height: 25px;
+  font-size: 14px;
+  margin-bottom: 23px;
+  width: 311px;
+  color: rgba(0, 49, 81, 0.48);
+}
+
+.about-us .flex .bold-p {
+  color: #003151;
+}
+
+.about-us .image {
+  position: relative;
+  margin-bottom: 232px;
+}
+
+.about-us .image > div {
+  position: absolute;
+  top: -60px;
+  width: 437px;
+  height: 609px;
+  background-color: #F6F6F6;
+  right: -240px;
+  z-index: -1111;
+}
+
+.about-us .image .pikat {
+  position: absolute;
+  left: -25%;
+  bottom: -25%;
+  z-index: -5555;
+}
+
+.about-us h5 {
+  text-align: center;
+  color: #004777;
+  font-size: 16px;
+  letter-spacing: 1.4px;
+  line-height: 66px;
+  margin-top: 0;
+  padding-top: 175px;
+  margin-bottom: 0;
+}
+
+.about-us h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #003151;
+  letter-spacing: 2.8px;
+  line-height: 38px;
+  width: 316px;
+  margin: auto;
+  margin-bottom: 127px;
+}
+
+.facts {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.facts .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 34px;
+  height: 34px;
+  background: #004777;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  z-index: 55555;
+}
+
+.facts .katrori {
+  position: absolute;
+  top: 81px;
+  width: 140%;
+  right: -20%;
+  left: -20%;
+  height: 532px;
+  background: #F9F9F9;
+  z-index: -2222;
+}
+
+.facts > div {
+  width: 286px;
+  position: relative;
+}
+
+.facts h4 {
+  padding-left: 22px;
+  border-left: #004777 7px solid;
+  color: #003151;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  margin-top: 43px;
+  margin-bottom: 13px;
+}
+
+.facts p {
+  padding-left: 22px;
+  color: rgba(0, 49, 81, 0.48);
+  font-size: 12px;
+  letter-spacing: 1.49px;
+  line-height: 22px;
+}
+
+.container {
+  position: relative;
+  padding-bottom: 220px;
+}
+
+.container .gradient {
+  position: absolute;
+  top: 0;
+  right: -19.25%;
+  width: 75%;
+  height: 100%;
+  background: linear-gradient(89deg, #00315100 0%, #7F8D952E 100%);
+  z-index: -333333;
+}
+
+.testimonial {
+  margin-top: 217px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonial .pikat {
+  position: absolute;
+  width: 202px;
+  height: 152px;
+  bottom: -10%;
+  left: -20%;
+  z-index: -111;
+}
+
+.testimonial > div {
+  position: relative;
+}
+
+.testimonial .text {
+  width: 740px;
+  height: 557px;
+  margin-top: 61px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #003151;
+  margin-left: -70px;
+  z-index: -5555;
+}
+
+.testimonial .text > div {
+  margin-right: 112px;
+  margin-bottom: 57px;
+}
+
+.testimonial p {
+  width: 474px;
+  margin-left: 166px;
+  margin-top: 190px;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+  color: #FFFFFF;
+}
+
+.testimonial h4 {
+  text-align: right;
+  font: SemiBold Italic 16px/24px Nunito;
+  letter-spacing: 1.6px;
+  color: #FFFFFF;
+  margin-bottom: 0em;
+}
+
+.testimonial h5 {
+  text-align: right;
+  font: ExtraLight 16px/24px Nunito;
+  letter-spacing: 1.6px;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.what-we-offer {
+  margin-right: 126px;
+  margin-left: 23px;
+  margin-top: 206px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 140px;
+}
+
+.what-we-offer h1 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2.8px;
+  color: #003151;
+}
+
+.what-we-offer h5 {
+  margin-left: 31px;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  color: #003151;
+  margin-bottom: 17px;
+}
+
+.what-we-offer p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.4px;
+  color: #0031517A;
+  margin-left: 60px;
+  margin-bottom: 0;
+}
+
+.what-we-offer .foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  background: #F2F2F2;
+  text-align: center;
+  position: relative;
+  height: 469px;
+  margin-top: 214px;
+}
+
+.footer h5 {
+  padding-top: 75px;
+  font-size: 14px;
+  letter-spacing: 1.74px;
+  color: #0098FE;
+  margin-bottom: 0;
+}
+
+.footer h1 {
+  margin: auto;
+  font-size: 28px;
+  margin-top: 9px;
+  color: #004777;
+  letter-spacing: 3.47px;
+  width: 349px;
+}
+
+.footer input {
+  margin-top: 69px;
+  border-radius: 26px;
+  border: none;
+  width: 346px;
+  height: 44px;
+}
+
+.footer p {
+  margin-top: 100px;
+  color: #ABABAB;
+  font-size: 14px;
+  letter-spacing: 1.74px;
+}
+
+.footer a {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #91B5CC;
+  padding-bottom: 45px;
+}
+
+.footer img {
+  position: absolute;
+  bottom: -76px;
+  left: 28px;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 500px;
+  }
+  header ul {
+    margin: 0;
+    margin-left: 200px;
+  }
+  header ul a {
+    margin-right: 70px;
+  }
+  header h1 {
+    letter-spacing: 3.8px;
+    line-height: 50px;
+    font-size: 42px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 120px;
+  }
+  header p {
+    display: block;
+    width: 70%;
+    margin-left: 120px;
+  }
+  .about-us .katrori {
+    width: 10%;
+  }
+  .about-us h5 {
+    padding-top: 50px;
+  }
+  .about-us h2 {
+    letter-spacing: 1.8px;
+    line-height: 28px;
+    width: 500px;
+  }
+  .about-us .flex {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .about-us .flex .paragrafat {
+    margin-top: 0;
+  }
+  .about-us .flex p {
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+  .about-us .image {
+    width: 350px;
+  }
+  .about-us .image .qika {
+    width: 100%;
+  }
+  .about-us .image > div {
+    top: -10%;
+    bottom: -10%;
+    height: 120%;
+  }
+  .about-us .image .pikat {
+    display: none;
+  }
+  .facts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .facts > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  .facts > div > div {
+    margin-left: 10px;
+  }
+  main {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .testimonial {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .testimonial .pikat {
+    top: -10%;
+  }
+  .testimonial .text {
+    margin-top: -160px;
+    margin-left: 0;
+    z-index: 5555555;
+    height: 350px;
+    width: 90%;
+    border-radius: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .testimonial .text p {
+    margin-top: 50px;
+    margin-left: 0;
+  }
+  .testimonial .text > div {
+    margin-bottom: 15px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 474px;
+  }
+  .what-we-offer {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    grid-gap: 40px;
+  }
+  .what-we-offer h5 {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .footer img {
+    width: 150px;
+    bottom: -55px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    height: 450px;
+  }
+  header ul {
+    margin-left: 50px;
+  }
+  header ul a {
+    margin-right: 50px;
+  }
+  header h1 {
+    margin-left: 50px;
+    width: 70%;
+    margin-bottom: 0;
+  }
+  header p {
+    margin-left: 50px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+  }
+  .about-us h2 {
+    letter-spacing: 1.5px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  .about-us .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about-us .paragrafat {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .about-us .image {
+    margin-bottom: 150px;
+  }
+  .about-us p {
+    width: 90% !important;
+  }
+  .facts {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .facts img {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+  }
+  .testimonial p {
+    width: 90%;
+    margin: auto !important;
+  }
+  .what-we-offer {
+    margin-right: 10px;
+    margin-top: 100px;
+  }
+  .footer {
+    margin-top: 120px;
+  }
+  .footer input {
+    width: 55%;
+  }
+  .footer p {
+    margin-top: 50px;
+  }
+  .container {
+    padding-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    height: 330px;
+  }
+  header ul {
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+  }
+  header ul a {
+    margin-right: 20px;
+  }
+  header h1 {
+    letter-spacing: 2.8px;
+    line-height: 30px;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  header p {
+    letter-spacing: 1.4px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 10px;
+    width: 100%;
+  }
+  header > a {
+    width: 64px;
+    padding: 8px 24px;
+    letter-spacing: 1.6px;
+    font-size: 16px;
+    border-radius: 29px;
+    background: #004777;
+    margin-left: 10px;
+    color: white;
+  }
+  main {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .about-us .katrori {
+    width: 5%;
+  }
+  .about-us h5 {
+    padding-top: 25px;
+  }
+  .about-us h2 {
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  .about-us p {
+    letter-spacing: 1.4px !important;
+    line-height: 20px !important;
+  }
+  .about-us .image {
+    width: 270px;
+  }
+  .facts > div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .facts img {
+    width: 286px;
+    height: 20%;
+    margin: auto;
+  }
+  .facts h4 {
+    margin-top: 15px;
+  }
+  .facts p {
+    margin-bottom: 25px;
+  }
+  .testimonial {
+    margin-top: 100px;
+  }
+  .testimonial > div {
+    width: 90%;
+    margin: auto;
+  }
+  .testimonial > div .djali {
+    width: 100%;
+  }
+  .testimonial P {
+    line-height: 20px;
+    letter-spacing: 1.3px;
+  }
+  .testimonial .text {
+    width: 100%;
+  }
+  .testimonial .text > div {
+    width: 100%;
+    text-align: end;
+  }
+  .what-we-offer {
+    margin-top: 50px;
+    grid-gap: 30px;
+  }
+  .what-we-offer h1 {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2.0px;
+  }
+  .what-we-offer p {
+    line-height: 20px;
+    margin-left: 0;
+    margin-top: 8px;
+  }
+  .what-we-offer h5 {
+    margin-left: 15px;
+  }
+  .footer {
+    margin-top: 70px;
+  }
+  .footer h5 {
+    padding-top: 40px;
+  }
+  .footer h1 {
+    margin: auto;
+    font-size: 24px;
+    margin-top: 9px;
+    letter-spacing: 2.47px;
+    width: 80%;
+  }
+  .footer input {
+    margin-top: 45px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
