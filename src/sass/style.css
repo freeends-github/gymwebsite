@@ -10,17 +10,6 @@ body {
 
 header {
   color: white;
-  background: #19191996;
-  height: 758px;
-  position: relative;
-}
-
-header img {
-  position: absolute;
-  z-index: -1111;
-  top: 0;
-  width: 100%;
-  height: 100%;
 }
 
 header ul {
@@ -28,6 +17,7 @@ header ul {
   padding-top: 83px;
   margin-top: 0;
   margin-bottom: 0;
+  z-index: 2;
 }
 
 header ul a {
@@ -55,10 +45,13 @@ header h1 {
   letter-spacing: 5.8px;
   line-height: 75px;
   font-size: 58px;
+  font-weight: lighter;
   width: 361px;
   margin-left: 187px;
   margin-top: 121px;
   display: inline-block;
+  margin-bottom: 57px;
+  font-family: 'Nunito', sans-serif;
 }
 
 header P {
@@ -70,7 +63,12 @@ header P {
   line-height: 25px;
 }
 
-header > a {
+header > div {
+  z-index: 2222222222;
+}
+
+header > div > a {
+  cursor: pointer;
   width: 64px;
   display: block;
   text-decoration: none;
@@ -84,26 +82,57 @@ header > a {
   color: white;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  z-index: 333;
 }
 
-header > a:hover {
+header > div > a:hover {
   background: white;
   color: #004777;
 }
 
-main {
-  margin-right: 14%;
-  margin-left: 14%;
-  border-right: #C7C7C7 0.3px solid;
-  border-left: #C7C7C7 0.3px solid;
+header .header-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -22222;
 }
 
-.about-us .katrori {
-  position: absolute;
-  left: 0;
+header .header-bg img {
+  width: 100%;
+}
+
+header .overlay {
+  background: rgba(25, 25, 25, 0.59);
+  top: -5px;
+}
+
+header .overlay img {
+  opacity: 0;
+}
+
+.katrori1 {
+  z-index: -9999999;
+  height: 1165px;
   width: 14%;
-  height: 399px;
+  top: 0;
+  left: 0;
+  position: absolute;
   background: #F9F9F9;
+}
+
+main {
+  top: 0;
+  position: absolute;
+  padding-top: 766px;
+  z-index: -66666;
+  width: 72%;
+  left: 14%;
+  margin: 0;
+  border-right: rgba(199, 199, 199, 0.7) 0.3px solid;
+  border-left: rgba(199, 199, 199, 0.7) 0.3px solid;
 }
 
 .about-us .flex {
@@ -117,6 +146,7 @@ main {
 
 .about-us .flex .paragrafat {
   margin-top: 81px;
+  margin-right: 15px;
 }
 
 .about-us .flex p {
@@ -217,13 +247,19 @@ main {
   left: -20%;
   height: 532px;
   background: #F9F9F9;
-  z-index: -2222;
+  z-index: 2;
 }
 
 .facts > div {
+  z-index: 22;
   width: 286px;
   position: relative;
   overflow: hidden;
+}
+
+.facts > div img {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .facts > div img:hover {
@@ -242,7 +278,7 @@ main {
 }
 
 .facts p {
-  padding-left: 22px;
+  padding-left: 29px;
   color: rgba(0, 49, 81, 0.48);
   font-size: 12px;
   letter-spacing: 1.49px;
@@ -282,6 +318,7 @@ main {
 
 .testimonial > div {
   position: relative;
+  z-index: 222;
 }
 
 .testimonial .text {
@@ -348,7 +385,6 @@ main {
 
 .what-we-offer h1 {
   font-size: 28px;
-  font-weight: bold;
   letter-spacing: 2.8px;
   color: #003151;
 }
@@ -359,6 +395,7 @@ main {
   letter-spacing: 1.8px;
   color: #003151;
   margin-bottom: 17px;
+  margin-top: 17px;
 }
 
 .what-we-offer p {
@@ -368,6 +405,7 @@ main {
   color: #0031517A;
   margin-left: 60px;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .what-we-offer .foto {
@@ -405,7 +443,7 @@ main {
 }
 
 .footer > div {
-  width: 346px;
+  width: 356px;
   margin: auto;
   position: relative;
   margin-top: 69px;
@@ -437,9 +475,12 @@ main {
 .footer input {
   border-radius: 26px;
   border: none;
-  width: 346px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   height: 44px;
   outline: none;
+  padding-left: 15px;
 }
 
 .footer p {
@@ -456,15 +497,32 @@ main {
   padding-bottom: 45px;
 }
 
+.footer a:hover {
+  color: #0098FE;
+}
+
 .footer > img {
   position: absolute;
   bottom: -76px;
   left: 28px;
 }
 
+@media screen and (max-width: 1200px) {
+  main {
+    padding-top: 500px;
+  }
+  .katrori1 {
+    height: 1200px;
+  }
+  header h1 {
+    margin-top: 70px;
+    letter-spacing: 4.8px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   header {
-    height: 500px;
+    padding-bottom: 120px;
   }
   header ul {
     margin: 0;
@@ -478,7 +536,7 @@ main {
     line-height: 50px;
     font-size: 42px;
     width: 50%;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 120px;
   }
   header p {
@@ -540,8 +598,13 @@ main {
     margin-left: 10px;
   }
   main {
-    margin-right: 10%;
-    margin-left: 10%;
+    padding-top: 500px;
+    width: 80%;
+    left: 10%;
+  }
+  .katrori1 {
+    width: 10%;
+    height: 1000px;
   }
   .testimonial {
     -webkit-box-orient: vertical;
@@ -593,11 +656,28 @@ main {
 }
 
 @media screen and (max-width: 800px) {
+  main {
+    padding-top: 400px;
+  }
+  .katrori1 {
+    height: 700px;
+  }
   header {
-    height: 450px;
+    padding-bottom: 70px;
+  }
+  header > div > a {
+    width: 64px;
+    padding: 8px 24px;
+    letter-spacing: 1.6px;
+    font-size: 14px;
+    border-radius: 29px;
+    background: #004777;
+    margin-left: 50px;
+    color: white;
   }
   header ul {
     margin-left: 50px;
+    padding-top: 20px;
   }
   header ul a {
     margin-right: 50px;
@@ -606,6 +686,7 @@ main {
     margin-left: 50px;
     width: 70%;
     margin-bottom: 0;
+    margin-top: 50px;
   }
   header p {
     margin-left: 50px;
@@ -662,8 +743,8 @@ main {
     width: 55%;
     height: 44px;
   }
-  .footer > div input {
-    width: 100%;
+  .footer > div span {
+    right: -7px;
   }
   .footer p {
     margin-top: 50px;
@@ -675,7 +756,10 @@ main {
 
 @media screen and (max-width: 576px) {
   header {
-    height: 330px;
+    padding-bottom: 30px;
+  }
+  header > div > a {
+    margin-left: 10px;
   }
   header ul {
     text-align: center;
@@ -683,7 +767,7 @@ main {
     padding-top: 25px;
   }
   header ul a {
-    margin-right: 20px;
+    margin-right: 15px;
   }
   header h1 {
     letter-spacing: 2.8px;
@@ -698,21 +782,15 @@ main {
     font-size: 14px;
     line-height: 20px;
     margin-left: 10px;
-    width: 100%;
-  }
-  header > a {
-    width: 64px;
-    padding: 8px 24px;
-    letter-spacing: 1.6px;
-    font-size: 16px;
-    border-radius: 29px;
-    background: #004777;
-    margin-left: 10px;
-    color: white;
+    width: 90%;
   }
   main {
-    margin-right: 5%;
-    margin-left: 5%;
+    width: 90%;
+    left: 5%;
+  }
+  .katrori1 {
+    width: 5%;
+    height: 500px;
   }
   .about-us .katrori {
     width: 5%;
@@ -759,6 +837,7 @@ main {
     width: 100%;
   }
   .testimonial P {
+    padding-top: 50px;
     line-height: 20px;
     letter-spacing: 1.3px;
   }
@@ -786,8 +865,12 @@ main {
   .what-we-offer h5 {
     margin-left: 15px;
   }
+  .container {
+    padding-bottom: 90px;
+  }
   .footer {
     margin-top: 70px;
+    height: 400px;
   }
   .footer h5 {
     padding-top: 40px;
@@ -801,6 +884,54 @@ main {
   }
   .footer > div {
     margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  main {
+    padding-top: 250px;
+  }
+  header > div > a {
+    padding: 5px 10px;
+  }
+  header ul {
+    padding-top: 5px;
+  }
+  header h1 {
+    letter-spacing: 1.8px;
+    line-height: 25px;
+    font-size: 25px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  header p {
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .about-us .flex p {
+    width: 800px;
+  }
+  main {
+    padding-top: 1000px;
+  }
+  .katrori1 {
+    height: 1500px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  main {
+    padding-top: 1500px;
+  }
+  .katrori1 {
+    height: 1900px;
   }
 }
 /*# sourceMappingURL=style.css.map */
