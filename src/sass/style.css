@@ -1,5 +1,7 @@
 html {
   overflow-x: hidden;
+  position: relative;
+  height: 100%;
 }
 
 body {
@@ -129,10 +131,31 @@ main {
   padding-top: 766px;
   z-index: -66666;
   width: 72%;
-  left: 14%;
+  overflow-x: hidden;
+  left: 0;
+  padding-left: 14%;
+  padding-right: 14%;
   margin: 0;
   border-right: rgba(199, 199, 199, 0.7) 0.3px solid;
   border-left: rgba(199, 199, 199, 0.7) 0.3px solid;
+}
+
+main::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  border-left: 1px #F9F9F9 solid;
+  left: 14%;
+  top: 0;
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  border-left: 1px #F9F9F9 solid;
+  right: 14%;
+  top: 0;
 }
 
 .about-us .flex {
@@ -173,8 +196,8 @@ main {
   top: -60px;
   width: 437px;
   height: 609px;
-  background-color: #F6F6F6;
-  right: -240px;
+  background-color: #F9F9F9;
+  right: -360px;
   z-index: -1111;
 }
 
@@ -521,6 +544,22 @@ main {
 }
 
 @media screen and (max-width: 1024px) {
+  main::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 1px #F9F9F9 solid;
+    left: 10%;
+    top: 0;
+  }
+  main::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 1px #F9F9F9 solid;
+    right: 10%;
+    top: 0;
+  }
   header {
     padding-bottom: 120px;
   }
@@ -600,7 +639,8 @@ main {
   main {
     padding-top: 500px;
     width: 80%;
-    left: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .katrori1 {
     width: 10%;
@@ -784,9 +824,26 @@ main {
     margin-left: 10px;
     width: 90%;
   }
+  main::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 1px #F9F9F9 solid;
+    left: 5%;
+    top: 0;
+  }
+  main::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 1px #F9F9F9 solid;
+    right: 5%;
+    top: 0;
+  }
   main {
     width: 90%;
-    left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .katrori1 {
     width: 5%;
@@ -919,10 +976,16 @@ main {
     width: 800px;
   }
   main {
-    padding-top: 1000px;
+    padding-top: 800px;
   }
   .katrori1 {
     height: 1500px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  main {
+    padding-top: 1000px;
   }
 }
 
