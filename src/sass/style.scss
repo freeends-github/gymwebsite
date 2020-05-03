@@ -165,7 +165,7 @@ img{
             }
         }
         .header_info{
-            width:26%;
+            width:24%;
             p{
                 font: 400 14px/25px Nunito;
                 letter-spacing: 1.74px;
@@ -227,7 +227,7 @@ img{
         position: relative;
         z-index:2;
         .about_info{
-            width:29%;
+            width:27%;
             position: relative;
             z-index:2;
             .first_paragraph{
@@ -473,6 +473,7 @@ img{
     .contact_section{
         padding-bottom:215px;
         position:relative;
+        overflow:hidden;
         .contact_container{
             width:66%;
             margin:215px auto 0 auto;
@@ -550,6 +551,9 @@ img{
                 opacity: 1;
                 margin-top:9px;
                 cursor:pointer;
+                &:hover,&:active{
+                    color: #615d5d;
+                }
             }
             img{
                 position:absolute;
@@ -777,6 +781,7 @@ img{
     }
     .header_section{
         .header_contact{
+            margin-bottom:69px;
             .header_headline{
                 h2{
                     font: 300 30px/46px Nunito !important;
@@ -799,12 +804,21 @@ img{
             width:19%;
         }
     }
+    .example_section{
+        .example_container{
+            padding-bottom:50px;
+        }
+    }
     .gradiant{
         .dots_img{
             width:23%;
         }
+        .programs_section{
+            margin-top:50px;
+        }
         .contact_section{
             .contact_container{
+                margin-top:100px;
                 h1{
                     font: 700 18px/27px Nunito;
                 }
